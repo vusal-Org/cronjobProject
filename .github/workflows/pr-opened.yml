@@ -2,6 +2,9 @@ name: PR Opened
 
 on:
   workflow_call:
+
+env:
+  NAME: "Alex"
   
 jobs:
   build:
