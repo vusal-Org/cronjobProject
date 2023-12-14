@@ -13,5 +13,5 @@ jobs:
       - name: build
         run: |
           echo "this is build for ${{ github.repository }} "
-          echo "My name is ${{ env.NAME }}"
+          echo "My name is ${{ NAME }}"
           echo "My surname is ${{ secrets.SURNAME }}"
