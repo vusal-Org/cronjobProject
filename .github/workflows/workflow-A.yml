@@ -9,3 +9,9 @@ jobs:
     steps:
       - name: Run a one-line script
         run: echo "Hello, world!"
+
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Run a one-line script
+        run: echo "Hello, world!"
