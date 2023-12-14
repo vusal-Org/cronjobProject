@@ -1,0 +1,11 @@
+name: PR Opened
+
+on:
+  workflow_call:
+  
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: build
+        run: echo "this is build!"
