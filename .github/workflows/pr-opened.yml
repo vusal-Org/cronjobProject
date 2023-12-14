@@ -8,4 +8,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: build
-        run: echo "this is build!"
+        run: echo "this is build for ${{ github.repository }} "
